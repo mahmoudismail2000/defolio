@@ -1,0 +1,501 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.container-fluid a{
+    color:white;
+}
+h2{
+    font-size: 48px;
+    font-weight: bold;
+}
+.add ul li{
+    padding: 2px;
+}
+
+.navbar{
+    position: fixed;
+    z-index: 100;
+}
+.navbar-brand{
+    font-size: 28px;
+    font-weight: bold;
+}
+.add ul li a{
+    font-weight:600;
+    position: relative;
+}
+
+.navbar ul li a::before{
+    content: " ";
+    position: absolute;
+    background-color: #ffffff;
+    bottom: 0;
+    width: 0;
+    left: 0;
+    height: 3px;
+    transition: all .5s;
+    
+}
+.navbar ul li a:hover::before{
+    width: 100%;
+}
+.navbar-brand:hover{
+    color: white;
+}
+.nav-item{
+    padding: 10px;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+.dropdown:hover .droptwo{
+    display: none;
+}
+.dropdown-menu a{
+    color: black;
+}
+.dropone:hover .droptwo{
+    display: block;
+    margin-left: 90%;
+    
+
+}
+
+
+
+
+
+
+
+
+
+.home{
+    height: 100vh;
+    background-image: url('../images/hero-bg.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+}
+
+.home .container{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(12, 12, 12,.5);
+}
+
+
+.homecaption h1{
+    font-size: 72px;
+}
+.homecaption p{
+    font-size: 40px;
+}
+
+.homecaption p::after{
+    content: " | ";
+    animation-name: homeanima;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes homeanima{
+    0%{
+        content: "F |";
+    }
+    2%{
+        content: "Fr |";
+    }
+    4%{
+        content: "Fre |";
+    }
+    6%{
+        content: "Free |";
+    }
+    8%{
+        content: "Freel |";
+    }
+    10%{
+        content: "Freela |";
+    }
+    12%{
+        content: "Freelan |";
+    }
+    14%{
+        content: "Freelanc |";
+    }
+    16%{
+        content: "Freelance |";
+    }
+    18%{
+        content:"Freelancer |";
+    }
+    20%{
+        content:"Freelancer |";
+    }
+    22%{
+        content:"Freelancer |";
+    }
+    24%{
+        content:"Freelancer |";
+    }
+    26%{
+        content:"Freelancer |";
+    }
+
+    28%{
+        content: "Freelance |";
+    }
+    30%{
+        content: "Freelan |";
+    }
+    32%{
+        content: "Freela |";
+    }
+    34%{
+        content: "Freel |";
+    }
+    36%{
+        content: "Free |";
+    }
+    38%{
+        content: "Fre |";
+    }
+    40%{
+        content: "Fr |";
+    }
+    42%{
+        content: "F |";
+    }
+    
+    44%{
+        content: "D |";
+    }
+    46%{
+        content: "De |";
+    }
+    48%{
+        content: "Des |";
+    }
+    50%{
+        content: "Desi |";
+    }
+    52%{
+        content: "Desig |";
+    }
+    54%{
+        content: "Design |";
+    }
+    56%{
+        content: "Designe |";
+    }
+    58%{
+        content: "Designer |";
+    }
+    60%{
+        content: "Designer |";
+    }
+    62%{
+        content: "Designer |";
+    }
+    64%{
+        content: "Designer |";
+    }
+    66%{
+        content: "Designer |";
+    }
+    68%{
+        content: "Designer |";
+    }
+
+
+    70%{
+        content: "Designe |";
+    }
+    72%{
+        content: "Design |";
+    }
+    74%{
+        content: "Desig |";
+    }
+    76%{
+        content: "Desi |";
+    }
+    78%{
+        content: "Des |";
+    }
+    80%{
+        content: "De |";
+    }
+    82%{
+        content: "D |";
+    }
+
+
+}
+
+
+
+
+
+
+.about .progress{
+    border-radius: 0;
+    margin-bottom: 10px;
+    
+}
+
+.about .card-body p span ,.col-md-12 span{
+    font-weight: bold;
+    font-size: 17.6px;
+}
+.cap  p{
+    font-size: 20px;
+    color: #4E4E4E;
+}
+.services i {
+    font-size: 35px;
+    padding: 25px;
+
+}
+
+.services .card .col-md-4 {
+    border: 10px solid #0078FF;
+}
+
+.prog .progress{
+    width: 50px;
+    height: 5px;
+}
+
+.services .row .row:hover .col-md-4{
+    background-color: #0078FF;
+    border: 10px solid #CDE1F8 ;
+}
+
+.services .row .row:hover .col-md-4 i{
+    color: white;
+}
+
+
+.timer .iconstyle i{
+    font-size: 25px;
+    color: white;
+    
+
+}
+.timer .iconstyle {
+    border: 10px solid #CDE1F8;
+}
+.timer p{
+    font-size: 32px;
+}
+.timer{
+    background-image: url('../images/counters-bg.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.timerstyle{
+    width: 100%;
+    height: auto;
+    background-color: rgba(39,123,220, .8);
+    
+}
+
+.portfolio i{
+    font-size: 40px;
+    color: #1885FF;
+}
+.portfolio .card img{
+    transition: transform 1s;
+}
+
+.portfolio .card:hover img{
+    transform: scale(1.4);
+}
+
+.portfolio h4{
+    font-size: 19.2px;
+}
+.portfoliostyle{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: -100px;
+    right:-100px ;
+    display: flex;
+    justify-content: end;
+    transition: all 1s;
+}
+.portfolio .card:hover .portfoliostyle{
+    top: 0px;
+    right:0px ;
+    
+}
+
+.portfoliostyle .style1 i{
+    background-color:#F5F5F5;
+    height: auto;
+    border-radius: 100%;
+    font-size: 30px;
+    box-shadow:0px 0px 5px 0px #4E4E4E;  
+}
+
+.blog .card:hover .portfoliostyle{
+    top: 0px;
+    right:0px ;
+    
+}
+
+
+
+
+
+
+.photostyle{
+
+}
+.slider h5{
+    font-size: 22.4px;
+}
+.slider p{
+    font-size: 20px;
+}
+.slider{
+    background-image: url('../images/overlay-bg.jpg');
+    background-size: cover;
+    background-position: 100% 100%;
+    background-attachment: fixed;
+}
+
+.sliderstyle{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(39,123,220, .8);
+    top: 0;  
+}
+
+.slider .carousel-indicators> button{
+    width: .5%;
+    padding: 3px;
+    border-radius: 100%;
+    margin-right: 5px;
+ }
+ .blog .card-footer a img{
+    width: 12%;
+    border-radius: 100%;
+ }
+ .blog .card-footer a {
+    color: black;
+    text-decoration: none;
+ }
+ 
+ .cardbtn{
+    bottom: -4%;
+ }
+ 
+.send form input{
+    width: 100%;
+    padding: 7px;
+    margin-top: 15px;
+    border: 1px solid rgb(189, 189, 189);
+}
+.send form textarea{
+    margin-top: 15px;
+    resize: none;
+    width: 100%;
+    border: 1px solid rgb(189, 189, 189);
+}
+
+.send textarea:focus, input:focus {   
+    outline: 1px solid #0078FF;
+    border: 5px solid #71b3ff;   
+}
+.send input:focus {   
+    border: 5px solid #71b3ff;   
+}
+
+.send p{
+    font-size: 20px;
+}
+
+
+.send .sendicons i{
+    font-size: 20px;
+    padding: 12px;
+}
+
+.send .sendicons .col-md-1{
+    border: 5px solid #0078FF;
+}
+
+.send .sendicons .row .col-md-1:hover{
+    background-color: #0078FF;
+    border: 5px solid #CDE1F8 ;
+}
+
+
+.send .sendicons .row .col-md-1:hover i{
+    color: white;
+}
+
+
+.send{
+    background-image: url('../images/overlay-bg.jpg');
+    background-size: cover;
+    background-position: 100% 100%;
+    background-attachment: fixed;
+    padding-top: 10%;
+    padding-bottom: 5%;
+    margin-top: 8%;
+    
+}
+.sendstyle{
+    background-color: rgba(39,123,220, .8);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    top: 0;
+}
+
+.footproject{
+    background-color: #0062D3;
+    
+}
+.footproject span{
+    font-weight: bold;
+}
+
+.arrow a{
+    font-size: 30px;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+}
+.arrow{
+    background-color: #0062D3;
+    border-radius: 100%;
+    z-index: 50;
+    position: fixed;
+    right: 40px;
+    bottom: 30px;
+    
+}
+
+.send .btnstyle {
+    background-color: #0279FF;
+}
+
+.send .btnstyle:hover{
+    background-color: #3393FF;
+    box-shadow: 0px 0px 5px 0px #4e80b9;
+}
+.send span{
+    font-size: 16px;
+    font-weight: 400;
+}
